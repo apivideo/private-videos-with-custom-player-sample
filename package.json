@@ -1,0 +1,21 @@
+{
+  "name": "private-videos-with-custom-player-sample",
+  "version": "1.0.0",
+  "description": "Sample application to demonstrate how to play api.video private videos with customer players",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:apivideo/private-videos-with-custom-player-sample.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "api.video <ecosystem@api.video> (https://api.video/)",
+  "license": "MIT",
+  "dependencies": {
+    "@api.video/nodejs-client": "^2.2.7",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
